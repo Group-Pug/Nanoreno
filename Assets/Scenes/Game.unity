@@ -528,7 +528,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 722596278}
   - 114: {fileID: 722596275}
-  - 114: {fileID: 722596277}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -570,19 +569,6 @@ MonoBehaviour:
   saveSelection: 1
   localizationId: 
   hideCommands: []
---- !u!114 &722596277
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 11462346, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 722596274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 0}
 --- !u!4 &722596278
 Transform:
   m_ObjectHideFlags: 0
